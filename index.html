@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form__!</title>
+</head>
+
+<body>
+    <div class="all">
+
+        <form action="" method="GET">
+            <div class="heading">
+                Application For Permission To Date My Daughter
+            </div>
+            <div class="sub_heading">
+                <span>Note</span> Form is to be completed at least 21 days prior to date
+            </div>
+            <fieldset>
+                <legend>Personal Details</legend>
+
+                <div class="form_group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter name here" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="add">Address:</label>
+                    <input type="text" name="add" id="add" placeholder="Enter address here" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" id="mail" placeholder="Enter email here" required>
+                </div>
+
+                <div class="form_group">
+                    <label for="num">Phone Number:</label>
+                    <input type="number" name="num" id="num" placeholder="Enter 10 digit number">
+                </div>
+
+                <div class="form_group">
+                    <label for="iq">IQ:</label>
+                    <input type="number" name="iq" id="iq" placeholder="Enter IQ here">
+                </div>
+
+                <div class="form_group">
+                    <p>Gender</p>
+                    <div class="form_group">
+
+                        <input type="radio" name="gender" id="male" checked>
+                        <label for="male">male</label>
+                    </div>
+                    <div class="form_group">
+
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">female</label>
+
+                    </div>
+
+                    <div class="form_group">
+
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">other</label>
+                        
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label for="date">Date of Proposed Outing:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="sub_heading">
+                    Check All That Apply
+                </div>
+                <div class="form_group">
+
+                    <input type="checkbox" name="tattoos" id="tattoos">
+                    <label for="tattoos">I have tattoos adn/or piercings</label>
+
+                </div>
+                <div class="form_group">
+
+                    <input type="checkbox" name="older" id="older">
+                    <label for="older">I am more than 2 years older than my daughter</label>
+
+                </div>
+                <div class="form_group">
+
+                    <input type="checkbox" name="panel" id="panel">
+                    <label for="panel">I own a panel van or V8 ute</label>
+
+                </div>
+                <div class="form_group">
+
+                    <input type="checkbox" name="work" id="work" checked>
+                    <label for="work">I work full-time</label>
+
+                </div>
+                <div class="form_group">
+
+                    <input type="checkbox" name="rich" id="rich" checked>
+                    <label for="rich">My parents are rich</label>
+
+                </div>
+                <div class="form_group">
+
+                    <input type="checkbox" name="location" id="location" checked>
+                    <label for="location">Is the date at a well lit public location</label>
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="form_group">
+                    <label for="slt">Political Persuation:</label>
+                    <select name="slt" id="slt">
+                        <option value="left">Left Wing</option>
+                        <option value="som">something</option>
+                        <option value="som_1">something_1</option>
+                        <option value="som_2">something_2</option>
+                    </select>
+                    <label for="slt2">Education Level Completed:</label>
+                    <select name="slt2" id="slt2">
+                        <option value="uni">University</option>
+                        <option value="ins">institution</option>
+                        <option value="ins_1">institution_1</option>
+                        <option value="inst_2">institution_2</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Essay Section</legend>
+
+                <div class="sub_heading">
+                    In 50 words or more explain why you want to date my daughter
+                </div>
+                <div class="form_group">
+                    <textarea name="txt" id="txt" placeholder="Enter Text Here"></textarea>
+                </div>
+                <div class="sub_heading">
+                    Please upload contact details for 2 references
+                </div>
+                <div class="form_group">
+                    <textarea name="txt2" id="txt2" placeholder="Enter Text Here"></textarea>
+                </div>
+                <div class="form_group">
+
+                    <label for="file">Upload Police Clearance Certificate, Bank Statement and Medical Certificates
+                        here:</label>
+
+                    <input type="file" name="file" id="file" accept="">
+
+                </div>
+            </fieldset>
+
+            <div class="form_control">
+                <button type="submit">Send Your Application</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
